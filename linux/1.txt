@@ -1,0 +1,11 @@
+// Cập nhật
+apt-get update
+
+// Tải minergate-cli
+wget https://minergate.com/download/deb-cli -O minergate-cli.deb
+
+// Cài minergate-cli
+sudo dpkg -i minergate-cli.deb
+
+// Đào XMR
+nohup minergate-cli -user leovo2708@gmail.com -xmr 1
